@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $stmt->close();
         }
     }
-    header('Location: dashboard.php?m=success'); exit;
+    header('Location: dashboard.php?cat=' . (int)$_POST['category_id'] . '&m=success');
+exit;
 }
-header('Location: dashboard.php'); exit;
 ?>
