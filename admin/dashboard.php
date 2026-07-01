@@ -375,7 +375,7 @@ $score_pct   = $total_expected > 0 ? round(($scores / $total_expected) * 100) : 
       </div>
     </a>
 
-    <a href="categories.php" class="action-card">
+    <a href="criteria.php" class="action-card">
       <div class="action-icon">
         <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
       </div>
